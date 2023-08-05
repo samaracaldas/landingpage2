@@ -1,1 +1,1 @@
-<h1>Olá! Neste projeto eu estou recriando a primeira landing page que eu fiz usando Angular.</h1>
+<h1>Landing Page Front-Enders</h1>
