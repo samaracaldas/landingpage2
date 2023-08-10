@@ -1,0 +1,32 @@
+.spacer {
+    flex: 1;
+  }
+
+ 
+
+  .nav-link {
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    animation: linkBounce 0.3s ease-in-out;
+  }
+
+    @keyframes linkBounce {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+  .mat-toolbar {
+    margin-right: 50px;
+    color: aliceblue;
+    background-color: transparent !important;
+  }

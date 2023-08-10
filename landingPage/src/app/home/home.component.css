@@ -1,45 +1,14 @@
 
 
-mat-card-header {
-    color: aliceblue;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-  
-.header-left {
-    margin-left: 16px;
-}
-
-.left img {
-    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 50px;
-    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
-}
-
-  /* Estilo para os elementos à direita */
-  .header-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Espaçamento entre os elementos à direita */
-  .header-right > *:not(:last-child) {
-    margin-right: 16px;
-  }
-
-
   .card-content {
     color: aliceblue;
     padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
     
     display: flex;
     flex-wrap: wrap; /* Permite que os elementos quebrem a linha quando necessário */
   }
-
  
   
   .title {
@@ -60,8 +29,15 @@ mat-card-header {
   }
   
   .text-container {
-    margin-top: 30px;
+    line-height: 1.5; 
+    margin-left: 30px;
+    margin-top: 50px;
     flex: 1; /* Ocupar todo o espaço disponível */
+  }
+
+  .text-container h1 {
+    line-height: 1.2; 
+    font-size: 35px;
   }
   
   .image-container {
